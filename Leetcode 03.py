@@ -7,10 +7,12 @@ class Solution:
     nums.sort ()
 
     answer = []
+    
     for i in range( 0, len(nums)-2)):
+      
       if i>0 and nums[i] ==  nums[i-1]:
+        
         continue
-
 
 
       j = i+1
@@ -31,4 +33,12 @@ class Solution:
             j += 1
           while j<k and nums[k] == nums[k+1]:
             k -= 1
+
+        elif sum>0:
+          k -= 1
+        else:
+
+          j += 1
+
+  return answer
       
