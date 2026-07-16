@@ -16,4 +16,14 @@ class Solution:
       j = i+1
 
       k=len(nums)-1
+
+      while j<k:
+        sum = nums[i]+ nums[j]+nums[k]
+
+
+        if sum == 0:
+          answer.append([nums[i],nums[j],nums[k]])
+
+          j += 1
+          k -= 1
       
