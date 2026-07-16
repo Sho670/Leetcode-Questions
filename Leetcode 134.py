@@ -6,6 +6,11 @@
 
 #output : 3
 
+#Note:  "Greedy Method": Finding optimal solution in that point, can be of lowest or highest at that point.
+
+
+# In  this question, we are using the first list i.e gas, and visting each of the given numbers, and whenever the sum of gas is more than sum cost, then we will move to the next index with adding index + 1.
+
 
 class Solution:
   def cancompletecircuit(self, gas: List[int]):
@@ -21,10 +26,10 @@ class Solution:
       sumgas += gas[i]
       sumcost += cost[i]
 
-      if sumgas< sumcost:
+      if sumgas < sumcost:
 
         index = i+1
-        sumgas=0
-        sumcost=0
+        sumgas = 0
+        sumcost = 0
 
     return index
