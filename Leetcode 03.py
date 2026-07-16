@@ -8,4 +8,12 @@ class Solution:
 
     answer = []
     for i in range( 0, len(nums)-2)):
+      if i>0 and nums[i] ==  nums[i-1]:
+        continue
+
+
+
+      j = i+1
+
+      k=len(nums)-1
       
