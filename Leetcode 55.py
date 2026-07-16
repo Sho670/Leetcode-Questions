@@ -1,5 +1,9 @@
 #Leetcode Question 55 (Jump Game)
 
+# Approach  Used : Greddy Approach
+
+# Time Complexity: O(n), because the code is able to complete the execution  in only one for loop
+
 class Solution:
   def canjump():
     target = len(nums)-1
