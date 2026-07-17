@@ -1,5 +1,7 @@
 #Leetcode Question 735 (Asteriod Collision)
 
+#Problem: Linked List
+
 def asteriodcollision(self, a:list[int]):
   
   st=[]
@@ -7,6 +9,7 @@ def asteriodcollision(self, a:list[int]):
   for i in a:
     if i>0:
       st.append(i)
+      
     else:
       while st and st[-1]>0 and abs(i)>st[-1]:
         st.pop()
