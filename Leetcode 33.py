@@ -18,12 +18,15 @@ class Solution:
       if nums[i]<nums[mid]:
         if nums[i]<=target<nums[mid]:
           j=mid
+        
         else:
           i=mid+1
+          
       else:
         if nums[mid]<target<=nums[j]:
           i=mid+1
         else:
           j=mid
+          
     return -1
           
