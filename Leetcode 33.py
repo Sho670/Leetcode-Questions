@@ -2,6 +2,7 @@
 
 # Approach: Binary Search Tree
 
+# The question mostly uses Binary Search Tree Algorithm, only change is we are putting the condition of num[i] being greater than target and nums[mid].
 class Solution:
   
   def search():
