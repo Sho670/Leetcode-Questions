@@ -17,4 +17,6 @@ class Solution:
         if nums[mid]<target<=nums[j]:
           i=mid+1
         else:
+          j=mid
+    return -1
           
