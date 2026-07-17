@@ -19,10 +19,12 @@ class Solution:
       w = r-l
 
       area = h * w
+      
       minarea = max(minarea, area)
 
       if height [i]<= height[r]:
         l +=1
+        
       else:
         r = -1
 
