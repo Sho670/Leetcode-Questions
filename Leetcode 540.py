@@ -1,5 +1,10 @@
 # Leetcode Question 540 (Fibonacci Number)
 
+
+# The question provides a description of finding the fibonocci number of a particular element.
+
+# I am using Dynamic Programming which is nothing but trying to optimize the following code in better way as in it should be on time complexity of O(log n)
+
 def fibonacci(self, n):
 
   dp = [-1]*(n+1)
