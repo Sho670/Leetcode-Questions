@@ -1,5 +1,7 @@
 # Leetcode Question 1688 (Count of matches in tournament)
 
+# The question include the number of matches played by the teams.
+
 class Solution(object):
   
   def numberofmatches(self,num):
