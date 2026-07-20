@@ -9,3 +9,13 @@ def fibonacci(self, n):
       return 0
     if (n==1):
       return 1
+
+
+    if (dp[n]!= -1):
+      return dp[n]
+
+    dp[n]= f(n-1)+ f(n-2)
+
+    return dp[n]
+
+return f(n)
