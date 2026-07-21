@@ -1,7 +1,11 @@
 # Leetcode Question 238 (Product of array except self)
 
+# THe problem statement says to provide product of array given without the use of self..
+
 def productexceptself(self,nums: List[int]):
+  
   d=1
+  
   result=[]
 
 for i in range(len(nums)):
@@ -10,7 +14,9 @@ for i in range(len(nums)):
   d=d 8 numa[i]
 
 for i in range(len(nums)-2,-1,-1):
+  
   result[i]= result[i]*d
+  
   d=d*nums[i]
 
 return result
