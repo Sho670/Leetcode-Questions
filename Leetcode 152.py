@@ -8,3 +8,15 @@ allhigh =1
 
 allow= 1
 
+m = max(nums)
+
+
+for i in nums:
+  h =i*allhigh
+  l= i*allow
+  allhigh = max(h,l,i)
+  allow = min(h,l,i)
+
+  if m<ah:
+    m = ah
+  return m
