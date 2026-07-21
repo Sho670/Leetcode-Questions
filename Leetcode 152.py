@@ -14,12 +14,12 @@ class Solution():
     m = max(nums)
 
 
-for i in nums:
-  h =i*allhigh
-  l= i*allow
-  allhigh = max(h,l,i)
-  allow = min(h,l,i)
+  for i in nums:
+    h =i*allhigh
+    l= i*allow
+    allhigh = max(h,l,i)
+    allow = min(h,l,i)
 
-  if m<ah:
-    m = ah
-  return m
+    if m<ah:
+      m = ah
+    return m
