@@ -32,7 +32,8 @@ The repository is organized by problem topics or difficulty levels. Each `.py` f
 
 ---
 
-💡 Code Template
+## <p style="font-size: 35px;">💡 Code Template </p>
+
 Each .py file follows a consistent structure:
 
 
