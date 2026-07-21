@@ -1,14 +1,17 @@
 # Leetcode Question 152 (Maximum Product Subarray)
 
-highest=1
+class Solution():
+  def maximum(self, list-> int):
 
-lowest=1
+    highest=1
 
-allhigh =1
+    lowest=1
 
-allow= 1
+    allhigh =1
 
-m = max(nums)
+    allow= 1
+
+    m = max(nums)
 
 
 for i in nums:
