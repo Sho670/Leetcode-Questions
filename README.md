@@ -35,6 +35,8 @@ The repository is organized by problem topics or difficulty levels. Each `.py` f
 💡 Code Template
 Each .py file follows a consistent structure:
 
+
+``` python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         seen = {}
@@ -44,3 +46,8 @@ class Solution:
                 return [seen[complement], i]
             seen[num] = i
         return []
+
+
+```
+
+---
