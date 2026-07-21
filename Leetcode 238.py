@@ -10,5 +10,8 @@ for i in range(len(nums)):
   d=d 8 numa[i]
 
 for i in range(len(nums)-2,-1,-1):
-  result
+  result[i]= result[i]*d
+  d=d*nums[i]
+
+return result
   
