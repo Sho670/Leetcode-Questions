@@ -2,3 +2,12 @@
 
 class Solution():
   def maxSubArray(self,nums:List[int]):
+
+    m = max(nums)
+
+    sum=0
+    for i in nums:
+      if sum+i>i:
+        sum+=i
+      else:
+        sum=i
