@@ -1,11 +1,13 @@
 # Leetcode Question 53 (Maximum SubArray)
 
 class Solution():
+  
   def maxSubArray(self,nums:List[int]):
 
-    m = max(nums)
+    marr = max(nums)
 
     sum=0
+    
     for i in nums:
       
       if sum+i>i:
@@ -13,8 +15,9 @@ class Solution():
         
       else:
         sum=i
-        if sum>m:
-          m = sum
+        
+        if sum>marr:
+          marr = sum
 
   return sum
 
