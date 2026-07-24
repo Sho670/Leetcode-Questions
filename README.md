@@ -1,6 +1,6 @@
 # Leetcode-Questions
 
-This repository contains my personal solutions to LeetCode problems written in Python 3, serving as a log of my practice with data structures and algorithm design. 
+This repository contains my personal solutions to LeetCode problems written in Python 3.8, serving as a log of my practice with data structures and algorithm design. 
 
 Every individual Python file contains the complete problem statement, a brief explanation of the approach used, time and space complexity evaluations, and a runnable test case within a standard execution block. 
 
