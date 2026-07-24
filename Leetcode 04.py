@@ -24,6 +24,7 @@ def foursum(self, nums: list-> list[int]):
         sum = nums[i]+nums[j]+nums[k]
         
         if sum == target:
+          
           answer. append([nums[i],nums[j],nums[k]])
           
           j+=1
@@ -37,8 +38,10 @@ def foursum(self, nums: list-> list[int]):
 
         elif sum>target:
           k-=1
+          
         else:
           j+=1
+          
       return answer
 
       
