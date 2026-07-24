@@ -24,6 +24,14 @@ def foursum(self, nums: list-> list[int]):
           k-=1
           while j<k and nums[j]==nums[j-1]:
             j+=1
+          while j<k and nums[k]==nums[k+1]:
+            k-=1
+
+        elif sum>target:
+          k-=1
+        else:
+          j+=1
+      return answer
 
       
   
