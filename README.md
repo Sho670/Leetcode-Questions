@@ -21,15 +21,15 @@ The repository is organized by problem number or difficulty levels. Each `.py` f
 
 ```text
 .
-├── Easy/
+├── 
 │   ├── 0001_two_sum.py
 │   ├── 0020_valid_parentheses.py
 │   └── ...
-├── Medium/
+├── 
 │   ├── 0002_add_two_numbers.py
 │   ├── 0015_3sum.py
 │   └── ...
-├── Hard/
+├── 
 │   ├── 0004_median_of_two_sorted_arrays.py
 │   └── ...
 └── README.md
