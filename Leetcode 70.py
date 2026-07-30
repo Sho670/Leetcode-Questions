@@ -1,6 +1,8 @@
-# Leetcode 70 (Climbing Stairs)
+# Leetcode 70 (Climbing Stairs).
 
-# Approach Used: Dynamic Programming.
+# Time complexity: O(n).
+
+# Optimization Used: Dynamic Programming.
 
 class Solution:
   def climbingstairs(self, nums-> int):
