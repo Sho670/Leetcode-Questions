@@ -1,5 +1,7 @@
 # Leetcode 162 (Find Peak Element)
 
+# Time complexity: O(n)
+
 l=0
 j=len(nums)-1
 
