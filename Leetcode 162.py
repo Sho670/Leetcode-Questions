@@ -2,7 +2,8 @@
 
 # Time complexity: O(n)
 
-l=0
+i=0
+
 j=len(nums)-1
 
 while i<j:
@@ -10,6 +11,7 @@ while i<j:
   
   if nums[mid]<nums[mid+1]:
     i=mid+1
+    
   else:
     j=mid
 
