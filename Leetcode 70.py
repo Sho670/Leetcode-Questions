@@ -1,6 +1,6 @@
 # Leetcode 70 (Climbing Stairs)
 
-# Approach Used: Dynamic Programming..
+# Approach Used: Dynamic Programming.
 
 class Solution:
   def climbingstairs(self, nums-> int):
