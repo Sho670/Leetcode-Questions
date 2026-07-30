@@ -17,7 +17,7 @@ I have solved the LeetCode Questions from the leetcode platform and written the 
 
 ## 📌 Repository Questions
 
-The repository is organized by problem number or difficulty levels. Each `.py` file corresponds to a problem, clean code, and comments explaining the approach.
+The repository is organized by problem number or difficulty levels. Each `.py` or `.java` file corresponds to a problem, clean code, and comments explaining the approach.
 
 ```text
 .
