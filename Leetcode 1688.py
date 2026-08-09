@@ -15,3 +15,5 @@ class Solution(object):
 
       
       return (n-1)//2+self.numberofmatches((n-1)//2+1)
+
+# Optmizied Solution found for now.
