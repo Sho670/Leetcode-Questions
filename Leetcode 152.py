@@ -13,10 +13,10 @@ class Solution():
 
     m = max(nums)
 
-
   for i in nums:
     h =i*allhigh
     l= i*allow
+    
     allhigh = max(h,l,i)
     allow = min(h,l,i)
 
