@@ -4,7 +4,7 @@ This repository contains my personal solutions to LeetCode problems written in P
 
 Every individual Python file contains the problem statement, a brief of the approach used, time and space complexity evaluations, and a runnable test case within a standard execution block. 
 
-To test any solution locally, clone the repository using `git clone https://github.com/your-username/leetcode-python.git` in any Editor, navigate to the project directory, and execute the desired file directly using `python 01_two_sum.py`. 
+To test any solution locally, clone the repository using `git clone https://github.com/your-username/leetcode-python.git` in any editor, navigate to the project directory, and execute the desired file directly using `python 01_two_sum.py`. 
 
 This project is licensed under the MIT License and is open for personal reference, learning, and review.
 
@@ -21,11 +21,11 @@ The repository is organized by problem number or difficulty levels. Each `.py` o
 
 ```text
 .
-├── 
+├──
 │   ├── 0001_two_sum.py
 │   ├── 0020_valid_parentheses.py
 │   └── ...
-├── 
+├──
 │   ├── 0002_add_two_numbers.py
 │   ├── 0015_3sum.py
 │   └── ...
