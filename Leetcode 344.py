@@ -5,7 +5,9 @@ def reversestring(self, nums):
   def f(left, right):
     
     if (left >= right):
-      return s[left],s[right] = s[right], s[left]
+      return 
+      
+      s[left],s[right] = s[right], s[left]
       
       f(left+1, right-1)
 
