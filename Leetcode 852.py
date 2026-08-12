@@ -9,6 +9,7 @@ while i<j:
   
   if arr[mid] < arr[mid+1]:
     i = mid+1
+    
   else:
     j = mid
 
