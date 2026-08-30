@@ -1,5 +1,7 @@
 # Leetcode Question 18 (Four Sum Problem)
 
+
+# Space Complexity: O(n)^2
 def foursum(self, list-> list[int])
 
 nums.sort()
