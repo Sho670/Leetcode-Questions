@@ -26,3 +26,17 @@ for i in range(0,len(nums)-3):
       j+=1
       k-=1
       
+      while j<k and nums[j] == nums[j-1]:
+        j+=1
+
+      while j<k and nums[k]==nums[k+1]:
+        k-=1
+elif sum>target:
+    k-=1
+
+else:
+    j+=1
+
+
+
+return answer
