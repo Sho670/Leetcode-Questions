@@ -2,6 +2,7 @@
 
 
 # Space Complexity: O(n)^2
+
 def foursum(self, list-> list[int])
 
 nums.sort()
@@ -17,7 +18,6 @@ for i in range(0,len(nums)-3):
     if l>i+1 and nums[l]==nums[l-1]:
       continue
 
-  
   j=i+1
   k=len(nums)-1
 
@@ -41,7 +41,6 @@ elif sum>target:
 
 else:
     j+=1
-
 
 
 return answer
