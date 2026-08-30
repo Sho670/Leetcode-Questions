@@ -6,6 +6,7 @@ nums.sort()
 
 answer = []
 for i in range(0,len(nums)-3):
+  
   if i>0 and nums[i]==nums[i-1]:
     continue
 
@@ -14,6 +15,7 @@ for i in range(0,len(nums)-3):
     if l>i+1 and nums[l]==nums[l-1]:
       continue
 
+  
   j=i+1
   k=len(nums)-1
 
@@ -31,6 +33,7 @@ for i in range(0,len(nums)-3):
 
       while j<k and nums[k]==nums[k+1]:
         k-=1
+        
 elif sum>target:
     k-=1
 
