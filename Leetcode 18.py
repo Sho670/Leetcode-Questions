@@ -14,3 +14,15 @@ for i in range(0,len(nums)-3):
     if l>i+1 and nums[l]==nums[l-1]:
       continue
 
+  j=i+1
+  k=len(nums)-1
+
+  while j<k:
+    sum=nums[i]+nums[j]+nums[k]
+
+    if sum==target:
+      answer.append([nums[i],nums[j],nums[k])
+
+      j+=1
+      k-=1
+      
