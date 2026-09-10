@@ -21,3 +21,6 @@ def longestconsecutive(self, List->[nums][int][int]):
                 m=c
                 
     return m
+
+
+# Time Complexity: O(N)
